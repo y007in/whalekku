@@ -25,7 +25,51 @@ const Dialog = () => {
             </div> */}
           </div>
         </div>
-        <div class="SettingsDialog_content_2jYAp"><section><div class="LabeledSwitch_form_field_3bEvM Widgets_section_1uFnj"><label for="switch_d-848625" class="LabeledSwitch_label_2XVyT">네이버 검색</label><button type="button" role="switch" class="mdc-switch mdc-switch--selected mdc-ripple-upgraded mdc-ripple-upgraded--unbounded" aria-checked="true" style="--mdc-ripple-fg-size:28px; --mdc-ripple-fg-scale:1.71429; --mdc-ripple-left:10px; --mdc-ripple-top:10px;"><div class="mdc-switch__track"></div><div class="mdc-switch__handle-track"><div class="mdc-switch__handle"><div class="mdc-switch__shadow"><div class="mdc-elevation-overlay"></div></div><div class="mdc-switch__ripple"></div></div></div><input id="switch_d-848625" type="checkbox" class="mdc-switch__hidden-checkbox"></button></div><div class="Widgets_section_1uFnj"><div class="LabeledSwitch_form_field_3bEvM"><label for="switch_d-224987" class="LabeledSwitch_label_2XVyT">기본 위젯</label><button type="button" role="switch" class="mdc-switch mdc-switch--selected mdc-ripple-upgraded mdc-ripple-upgraded--unbounded" aria-checked="true" style="--mdc-ripple-fg-size:28px; --mdc-ripple-fg-scale:1.71429; --mdc-ripple-left:10px; --mdc-ripple-top:10px;"><div class="mdc-switch__track"></div><div class="mdc-switch__handle-track"><div class="mdc-switch__handle"><div class="mdc-switch__shadow"><div class="mdc-elevation-overlay"></div></div><div class="mdc-switch__ripple"></div></div></div><input id="switch_d-224987" type="checkbox" class="mdc-switch__hidden-checkbox"></button></div><div class="Widgets_main_widget_options_2cMTe"><button class="Widgets_option_3hXNC Widgets_active_S6qjI"><div class="Widgets_image_2AmGQ"><img src="/img/settings/preview_topsite.png"></div> 즐겨찾기 </button><button class="Widgets_option_3hXNC"><div class="Widgets_image_2AmGQ"><img src="/img/settings/preview_analog.png"></div> 아날로그 시계 </button><button class="Widgets_option_3hXNC"><div class="Widgets_image_2AmGQ"><img src="/img/settings/preview_digital.png"></div> 디지털 시계 </button></div><div class="Widgets_main_widget_suboptions_1MLe2"><span class="Widgets_title_37HZO"> 즐겨찾기 </span><div class="Widgets_option_3hXNC"><div class="mdc-form-field"><div class="mdc-checkbox mdc-checkbox--upgraded mdc-ripple-upgraded mdc-ripple-upgraded--unbounded" style="--mdc-ripple-fg-size:10px; --mdc-ripple-fg-scale:1.8; --mdc-ripple-left:4px; --mdc-ripple-top:4px;"><input id="checkbox_d-321298" type="checkbox" class="mdc-checkbox__native-control"><div class="mdc-checkbox__background"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="mdc-checkbox__checkmark"><path d="m5 9.556 2.074 2.864L13 6" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mdc-checkbox__checkmark-path"></path></svg><div class="mdc-checkbox__mixedmark"></div></div><div class="mdc-checkbox__ripple"></div></div><label for="checkbox_d-321298">자주 방문한 사이트</label></div><!----><!----></div></div></div><div class="Widgets_section_1uFnj"><div class="LabeledSwitch_form_field_3bEvM"><label for="switch_d-434611" class="LabeledSwitch_label_2XVyT">미니 위젯</label><button type="button" role="switch" class="mdc-switch mdc-switch--selected mdc-ripple-upgraded mdc-ripple-upgraded--unbounded" aria-checked="true" style="--mdc-ripple-fg-size:28px; --mdc-ripple-fg-scale:1.71429; --mdc-ripple-left:10px; --mdc-ripple-top:10px;"><div class="mdc-switch__track"></div><div class="mdc-switch__handle-track"><div class="mdc-switch__handle"><div class="mdc-switch__shadow"><div class="mdc-elevation-overlay"></div></div><div class="mdc-switch__ripple"></div></div></div><input id="switch_d-434611" type="checkbox" class="mdc-switch__hidden-checkbox"></button></div><div class="Widgets_mini_widget_options_3uN2R"><div class="mdc-form-field Widgets_option_3hXNC"><div class="mdc-checkbox mdc-checkbox--upgraded mdc-checkbox--selected mdc-ripple-upgraded mdc-ripple-upgraded--unbounded" style="--mdc-ripple-fg-size:10px; --mdc-ripple-fg-scale:1.8; --mdc-ripple-left:4px; --mdc-ripple-top:4px;"><input id="checkbox_d-619092" type="checkbox" class="mdc-checkbox__native-control"><div class="mdc-checkbox__background"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="mdc-checkbox__checkmark"><path d="m5 9.556 2.074 2.864L13 6" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mdc-checkbox__checkmark-path"></path></svg><div class="mdc-checkbox__mixedmark"></div></div><div class="mdc-checkbox__ripple"></div></div><label for="checkbox_d-619092">날씨</label></div><div class="mdc-form-field Widgets_option_3hXNC"><div class="mdc-checkbox mdc-checkbox--upgraded mdc-checkbox--selected mdc-ripple-upgraded mdc-ripple-upgraded--unbounded" style="--mdc-ripple-fg-size:10px; --mdc-ripple-fg-scale:1.8; --mdc-ripple-left:4px; --mdc-ripple-top:4px;"><input id="checkbox_d-516121" type="checkbox" class="mdc-checkbox__native-control"><div class="mdc-checkbox__background"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="mdc-checkbox__checkmark"><path d="m5 9.556 2.074 2.864L13 6" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mdc-checkbox__checkmark-path"></path></svg><div class="mdc-checkbox__mixedmark"></div></div><div class="mdc-checkbox__ripple"></div></div><label for="checkbox_d-516121">할 일 목록</label></div><div class="mdc-form-field Widgets_option_3hXNC"><div class="mdc-checkbox mdc-checkbox--disabled mdc-checkbox--upgraded mdc-checkbox--selected mdc-ripple-upgraded mdc-ripple-upgraded--unbounded" style="--mdc-ripple-fg-size:10px; --mdc-ripple-fg-scale:1.8; --mdc-ripple-left:4px; --mdc-ripple-top:4px;"><input id="checkbox_d-684210" type="checkbox" class="mdc-checkbox__native-control" disabled=""><div class="mdc-checkbox__background"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="mdc-checkbox__checkmark"><path d="m5 9.556 2.074 2.864L13 6" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mdc-checkbox__checkmark-path"></path></svg><div class="mdc-checkbox__mixedmark"></div></div><div class="mdc-checkbox__ripple"></div></div><label for="checkbox_d-684210">즐겨찾기</label></div><div class="mdc-form-field Widgets_option_3hXNC"><div class="mdc-checkbox mdc-checkbox--upgraded mdc-checkbox--selected mdc-ripple-upgraded mdc-ripple-upgraded--unbounded" style="--mdc-ripple-fg-size:10px; --mdc-ripple-fg-scale:1.8; --mdc-ripple-left:4px; --mdc-ripple-top:4px;"><input id="checkbox_d-923951" type="checkbox" class="mdc-checkbox__native-control"><div class="mdc-checkbox__background"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="mdc-checkbox__checkmark"><path d="m5 9.556 2.074 2.864L13 6" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mdc-checkbox__checkmark-path"></path></svg><div class="mdc-checkbox__mixedmark"></div></div><div class="mdc-checkbox__ripple"></div></div><label for="checkbox_d-923951">시계</label></div></div></div><div class="LabeledSwitch_form_field_3bEvM Widgets_section_1uFnj"><label for="switch_d-703900" class="LabeledSwitch_label_2XVyT">마우스 이동 시 보이기</label><button type="button" role="switch" class="mdc-switch mdc-switch--unselected mdc-ripple-upgraded mdc-ripple-upgraded--unbounded" aria-checked="false" style="--mdc-ripple-fg-size:28px; --mdc-ripple-fg-scale:1.71429; --mdc-ripple-left:10px; --mdc-ripple-top:10px;"><div class="mdc-switch__track"></div><div class="mdc-switch__handle-track"><div class="mdc-switch__handle"><div class="mdc-switch__shadow"><div class="mdc-elevation-overlay"></div></div><div class="mdc-switch__ripple"></div></div></div><input id="switch_d-703900" type="checkbox" class="mdc-switch__hidden-checkbox"></button></div></section></div>
+        <div className="SettingDialog_content">
+          <section>
+            <div className="Widgets_section">
+              <label className="content_label">네이버 검색</label>
+              <button type="button" role="switch" className="toggle">
+                토글
+              </button>
+            </div>
+            <div className="Widgets_section">
+              <label>웨꾸 위젯 모드</label>
+              <button className="toggle">토글</button>
+              <div className="whalekku_main">
+                <button className="widget_option">
+                  <div className="image">vs</div>위젯1
+                </button>
+                <button className="widget_option">
+                  <div className="image">vs</div>위젯1
+                </button>
+                <button className="widget_option">
+                  <div className="image">vs</div>위젯1
+                </button>
+              </div>
+              <button className="whalekku_button">웨꾸 위젯 만들기</button>
+            </div>
+            <div className="Widgets_section">
+              <label>미니 위젯</label>
+              <button className="toggle">토글</button>
+              <div className="Mini_widget">
+                <input type="checkbox" />
+                날씨
+                <input type="checkbox" />
+                할 일 목록
+                <input type="checkbox" />
+                즐겨찾기
+                <input type="checkbox" />
+                시계
+              </div>
+            </div>
+
+            <div className="Widgets_section">
+              <label>마우스 이동 시 보이기</label>
+              <button className="toggle">토글</button>
+            </div>
+          </section>
+        </div>
       </div>
     </div>
   );

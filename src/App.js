@@ -1,20 +1,21 @@
-// import { useState } from "react";
+import { useState } from "react";
+import React from "react";
 import Dialog from "./page/dialog/Dialog";
 import "./App.css";
 
 function App() {
-  // const [modalOpen, setModalOpen] = useState(true);
+  const [modalOpen, setModalOpen] = useState(false);
 
   return (
     <div className="App">
       <div className="Viewport_viewport">
-        <div class="Viewport_main">
+        <div className="Viewport_main">
           <div className="Search_container">
             <form
               action="http://search.naver.com/search.naver"
               className="Search_form"
             >
-              <div class="Search_search">
+              <div className="Search_search">
                 <a href="https://www.naver.com" className="Search_logo">
                   {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -29,11 +30,11 @@ function App() {
                   type="text"
                   name="query"
                   placeholder="검색어를 입력하세요"
-                  accesskey="s"
-                  maxlength="255"
-                  autocomplete="off"
-                  spellcheck="false"
-                  class="Search_input"
+                  accessKey="s"
+                  maxLength="255"
+                  autoComplete="off"
+                  spellCheck="false"
+                  className="Search_input"
                 />
                 <input type="hidden" name="ie" value="utf8" />
                 <input type="hidden" name="sm" value="whl_nht" />
@@ -46,9 +47,9 @@ function App() {
             <div className="Setting_container">
               <button
                 type="button"
-                // onClick={() => {
-                //   setModalOpen(!modalOpen);
-                // }}
+                onClick={() => {
+                  setModalOpen(!modalOpen);
+                }}
                 className="Setting_btn_settings"
               >
                 설정
@@ -61,7 +62,8 @@ function App() {
                   <use href="#setting"></use>
                 </svg> */}
               </button>
-              {/* {modalOpen === true ? <Dialog /> : null} */}
+
+              {modalOpen === true ? <Dialog /> : null}
             </div>
           </div>
         </div>
