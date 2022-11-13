@@ -51,9 +51,10 @@
 .SettingDialog_dialog
   .SettingsDialog_setting
   .SettingsDialog_menu
-  .SettingsDialog_tabs {
+  .SettingDialog_tabs {
   flex: 1;
   list-style: none;
+  height: 200px;
 }
 
 .SettingDialog_dialog
@@ -112,20 +113,14 @@
   .SettingsDialog_menu
   .SettingsDialog_sync {
   font-size: 12px;
+  height: 18px;
 }
 
-/* .LabelSwitch {
+.LabelSwitch {
   display: flex;
-  align-items: center;
+  justify-content: center;
   justify-content: space-between;
 }
-
-.LabelSwitch .settingswitch {
-  flex: 1;
-  -webkit-margin-end: 5px;
-  margin-inline-end: 5px;
-} */
-
 .SettingDialog_content {
   flex: 1;
   padding: 20px;
@@ -140,16 +135,20 @@
   border-radius: 10px;
   padding: 16px 15px 15px;
   margin-bottom: 10px;
+  width: 380px;
 }
 
-/* .Widgets_section .toggle {
-  float: right;
-} */
+.Widgets_section .label {
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .whalekku_main .image {
   width: 120px;
   height: 78px;
-  margin: 19px 5px 6px 5px;
+  margin: 10px 5px 6px 5px;
   border-radius: 8px;
   background-color: #f2f1f4;
 }
@@ -180,7 +179,10 @@
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
-
+.whalekku_container {
+  display: flex;
+  justify-content: center;
+}
 .whalekku_button {
   width: 233px;
   height: 37px;
@@ -188,5 +190,19 @@
   border: 1px solid #05c3a7;
   border-radius: 8px;
   cursor: pointer;
-  margin-top: 26px;
+  margin-top: 20px;
+  color: #05c3a7;
+}
+
+.Mini_widget {
+  display: flex;
+  padding-top: 10px;
+}
+
+.Mini_widget_contain {
+  margin-right: 31px;
+}
+
+.Mini_widget_contain input {
+  margin-right: 7px;
 }

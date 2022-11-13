@@ -1,6 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import Dialog from "./page/dialog/Dialog";
+import Whalekku_widget from "./page/whalekku_widget/Whalekku_widget";
 import "./App.css";
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
               </div>
             </form>
           </div>
-          <Dialog />
+          <Whalekku_widget />
           <div className="Viewport_mini">
             <div className="Setting_container">
               <button
@@ -63,7 +64,7 @@ function App() {
                 </svg> */}
               </button>
 
-              {modalOpen === true ? <Dialog /> : null}
+              {modalOpen && <Dialog />}
             </div>
           </div>
         </div>
