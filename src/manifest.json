@@ -1,0 +1,10 @@
+{
+  "name": "whalekku",
+  "description": "웨일브라우저 새탭 꾸미기",
+  "version": "0.0",
+  "manifest_version": 3,
+
+  "chrome_url_overrides": {
+    "newtab": "whalekku.html"
+  }
+}

@@ -1,0 +1,9 @@
+@import "../../reset.css";
+
+.SettingsDialog_content {
+  flex: 1;
+  padding: 20px;
+  background: #f2f1f4;
+  font-size: 13px;
+  letter-spacing: -0.5pt;
+}
