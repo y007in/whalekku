@@ -41,7 +41,8 @@
   letter-spacing: normal;
   color: #636363;
 }
-.label {
+
+.Widgets_section_whalekku .label {
   width: 305px;
   display: flex;
   align-items: center;
@@ -53,9 +54,11 @@
   display: flex;
   justify-content: center;
   padding: 3px 0 28px 0;
+  cursor: pointer;
 }
 
 footer button {
   background-color: transparent;
   border-color: transparent;
+  cursor: pointer;
 }

@@ -7,7 +7,7 @@ const Whalekku_widget_content2 = () => {
       <div className="Widgets_section_whalekku">
         <div className="label">
           <div className="label_container">
-            <p className="label_title">즐겨찾기 폴더</p>
+            <p className="label_title">두번째페이지</p>
             <p className="label_detail">사이트들을 폴더로 묶어 볼 수 있어요</p>
           </div>
           <button className="toggle">토글</button>

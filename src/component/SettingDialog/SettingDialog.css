@@ -1,17 +1,5 @@
 @import "../../reset.css";
 
-/* button {
-  overflow: visible;
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  outline: none;
-} */
-
 .SettingDialog_dialog {
   position: absolute;
   top: auto;
@@ -71,6 +59,7 @@
   border: 0;
   border-radius: 6px;
   text-align: left;
+  cursor: pointer;
 }
 
 .SettingDialog_dialog
@@ -87,6 +76,7 @@
   border: 0;
   border-radius: 6px;
   text-align: left;
+  cursor: pointer;
 }
 
 .SettingDialog_dialog
@@ -106,6 +96,7 @@
   color: #fff;
   background: #05c3a7;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .SettingDialog_dialog
@@ -205,4 +196,10 @@
 
 .Mini_widget_contain input {
   margin-right: 7px;
+}
+
+.Setting_btn_settings {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
 }

@@ -1,74 +1,19 @@
-import { useState } from "react";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import React from "react";
-import Dialog from "./page/dialog/Dialog";
-import Whalekku_widget from "./page/whalekku_widget/Whalekku_widget";
 import "./App.css";
 
-function App() {
-  const [modalOpen, setModalOpen] = useState(false);
+import NewTab from "./page/NewTab/NewTab";
+import WhalekkuPage from "./page/WhalekkuPage/Whalekkupage";
 
+function App() {
   return (
     <div className="App">
-      <div className="Viewport_viewport">
-        <div className="Viewport_main">
-          <div className="Search_container">
-            <form
-              action="http://search.naver.com/search.naver"
-              className="Search_form"
-            >
-              <div className="Search_search">
-                <a href="https://www.naver.com" className="Search_logo">
-                  {/* <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="svg-icon svg-icon--logo-naver"
-                    width="20"
-                    height="20"
-                  >
-                    <use href="#logo-naver"></use>
-                  </svg> */}
-                </a>
-                <input
-                  type="text"
-                  name="query"
-                  placeholder="검색어를 입력하세요"
-                  accessKey="s"
-                  maxLength="255"
-                  autoComplete="off"
-                  spellCheck="false"
-                  className="Search_input"
-                />
-                <input type="hidden" name="ie" value="utf8" />
-                <input type="hidden" name="sm" value="whl_nht" />
-                <button type="submit" hidden="hidden"></button>
-              </div>
-            </form>
-          </div>
-          <Whalekku_widget />
-          <div className="Viewport_mini">
-            <div className="Setting_container">
-              <button
-                type="button"
-                onClick={() => {
-                  setModalOpen(!modalOpen);
-                }}
-                className="Setting_btn_settings"
-              >
-                설정
-                {/* <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="svg-icon svg-icon--setting Settings_icon_1tzE8"
-                  width="16"
-                  height="16"
-                >
-                  <use href="#setting"></use>
-                </svg> */}
-              </button>
-
-              {modalOpen && <Dialog />}
-            </div>
-          </div>
-        </div>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<NewTab />} />
+          <Route path="/whalekkuPage" element={<WhalekkuPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

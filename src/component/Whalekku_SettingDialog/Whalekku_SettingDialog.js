@@ -1,13 +1,9 @@
 import React from "react";
 
-// import { useNavigate } from "react-router-dom";
-
 import Whalekku_widget_content1 from "../../component/Whalekku_widget_content/Whalekku_widget_content1";
-import "./Whalekku_widget.css";
+import "./Whalekku_SettingDialog.css";
 
-const Whalekku_widget = () => {
-  //   const navigate = useNavigate();
-
+const Whalekku_SettingDialog = () => {
   return (
     <div className="SettingDialog_whalekku">
       <div className="SettingsDialog_setting_whalekku">
@@ -38,4 +34,4 @@ const Whalekku_widget = () => {
   );
 };
 
-export default Whalekku_widget;
+export default Whalekku_SettingDialog;

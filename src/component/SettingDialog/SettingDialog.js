@@ -1,7 +1,14 @@
 import React from "react";
-import "./Dialog.css";
+import { useNavigate } from "react-router-dom";
 
-const Dialog = () => {
+import "./SettingDialog.css";
+
+const SettingDialog = () => {
+  const navigate = useNavigate();
+  const whalekkuClickHandler = () => {
+    navigate("/Whalekkupage");
+  };
+
   return (
     <div className="SettingDialog_dialog">
       <div className="SettingsDialog_setting">
@@ -53,7 +60,12 @@ const Dialog = () => {
                 </button>
               </div>
               <div className="whalekku_container">
-                <button className="whalekku_button">웨꾸 위젯 만들기</button>
+                <button
+                  className="whalekku_button"
+                  onClick={whalekkuClickHandler}
+                >
+                  웨꾸 위젯 만들기
+                </button>
               </div>
             </div>
             <div className="Widgets_section">
@@ -90,4 +102,4 @@ const Dialog = () => {
   );
 };
 
-export default Dialog;
+export default SettingDialog;
