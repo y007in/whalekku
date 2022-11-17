@@ -136,6 +136,13 @@
   justify-content: space-between;
 }
 
+.toggle {
+  background-color: #05c3a7;
+  border-color: transparent;
+  color: #fff;
+  border-radius: 5px;
+}
+
 .whalekku_main .image {
   width: 120px;
   height: 78px;

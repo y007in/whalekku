@@ -60,6 +60,19 @@
   grid-template-rows: repeat(3, auto);
 }
 
+.sticker1 {
+  position: absolute;
+  z-index: 30;
+}
+
+.sticker2 {
+  position: absolute;
+  z-index: 30;
+}
+.sticker3 {
+  position: absolute;
+  z-index: 30;
+}
 .whalekku_widget_row {
   display: grid;
   grid-template-columns: repeat(6, auto);

@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import isShowSearchBarState from "../../store/atom";
+import { isShowSearchBarState } from "../../store/atom";
 import { useSetRecoilState } from "recoil";
 
 import "./SettingDialog.css";
@@ -63,13 +63,13 @@ const SettingDialog = () => {
               </div>
               <div className="whalekku_main">
                 <button className="widget_option">
-                  <div className="image">vs</div>위젯1
+                  <div className="image"></div>위젯1
                 </button>
                 <button className="widget_option">
-                  <div className="image">vs</div>위젯1
+                  <div className="image"></div>위젯1
                 </button>
                 <button className="widget_option">
-                  <div className="image">vs</div>위젯1
+                  <div className="image"></div>위젯1
                 </button>
               </div>
               <div className="whalekku_container">
