@@ -1,5 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import isShowSearchBarState from "../../store/atom";
+import { useSetRecoilState } from "recoil";
 
 import "./SettingDialog.css";
 
@@ -7,6 +9,12 @@ const SettingDialog = () => {
   const navigate = useNavigate();
   const whalekkuClickHandler = () => {
     navigate("/Whalekkupage");
+  };
+
+  const setIsShowSearchBar = useSetRecoilState(isShowSearchBarState);
+
+  const searchBtnClickHandler = () => {
+    setIsShowSearchBar((prev) => !prev);
   };
 
   return (
@@ -38,7 +46,12 @@ const SettingDialog = () => {
             <div className="Widgets_section">
               <div className="label">
                 <label className="content_label">네이버 검색</label>
-                <button type="button" role="switch" className="toggle">
+                <button
+                  type="button"
+                  role="switch"
+                  className="toggle"
+                  onClick={searchBtnClickHandler}
+                >
                   토글
                 </button>
               </div>

@@ -71,7 +71,16 @@
   height: 101px;
   margin: 0 20px 21px 0;
   border-radius: 16px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: transparent;
+}
+
+.whalekku_widget .file {
+  margin: 23px 34px 9px 35px;
+}
+.filetitle {
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 9px;
 }
 
 .Settings_container {
